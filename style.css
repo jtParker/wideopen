@@ -17,7 +17,7 @@
   width: 180px;
   height: 36;
   justify-content: center;
-  margin: 0 100px 5px 10px;
+  margin: 0 50px 5px 10px;
 
 }
 
@@ -33,6 +33,7 @@
   margin: 20px 10px 5px 10px;
   padding: 5px;
   text-transform: uppercase;
+  letter-spacing: 1;
 
 
 }
@@ -49,11 +50,25 @@ a:hover {
 .greenbutton {
   background-color: #BDD435;
   border-radius: 5%;
-  padding: 10px
+  padding: 36px 11px 36px 11px;
+
 }
 
 .greenbutton a:hover {
   background-color: #C8E138;
   color: white;
 
+}
+
+.introtext {
+  margin: 0 auto;
+
+}
+
+.yourdigital {
+  color: white;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
