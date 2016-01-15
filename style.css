@@ -1,15 +1,24 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0:
+}
+
+
 .introbox {
   position: absolute;
   width: 100%;
   z-index: -1;
   background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg);
+  background-size: cover;
+  height: 489px;
 }
 
 .topnav{
   display: flex;
   width: 1000px;
   height: 50px;
-  margin: 15px auto;
+  margin: 15px auto 40px auto;
 
 }
 
@@ -26,15 +35,19 @@
   margin: 15px;
 }
 
-.introbox a {
+.topnav a {
   color: white;
   font-family: Lato, sans-serif;
   font-size: 16px;
   margin: 20px 10px 5px 10px;
   padding: 5px;
   text-transform: uppercase;
-  letter-spacing: 1;
+  letter-spacing: 2;
 
+}
+
+p {
+  margin: 0;
 
 }
 
@@ -62,13 +75,28 @@ a:hover {
 
 .introtext {
   margin: 0 auto;
+  width: 80%;
 
 }
 
 .yourdigital {
   color: white;
   font-family: helvetica;
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 20px;
   letter-spacing: 1px;
+  margin-left: 50px;
+  margin-bottom: 2px;
+}
+
+.workshop {
+  height: 150px;
+  color: white;
+  font-family: helvetica neue, helvetica;
+  font-size: 155px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
+
 }
