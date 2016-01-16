@@ -105,6 +105,12 @@ a:link {
 
 }
 
+/*.bizcontainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+*/
 .buildingbiz {
   color: white;
   font-family: helvetica;
@@ -113,6 +119,13 @@ a:link {
   letter-spacing: 1px;
   text-align: center;
   padding-top: 30px;
+
+}
+
+.leftbar {
+  background-color: white;
+  height: 8px;
+  width: 80px;
 
 }
 
@@ -131,4 +144,9 @@ i {
   margin: 40px 5px 10px 5px;
   font-family: lato;
   letter-spacing: 1px;
+}
+
+.box2 {
+  width: 100%:
+  background: url("../img/sprite_home.png");
 }
