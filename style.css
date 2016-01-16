@@ -35,11 +35,12 @@ html, body {
   margin: 15px;
 }
 
-.topnav a {
+.nav .navbar {
   color: white;
   font-family: Lato, sans-serif;
   font-size: 16px;
-  margin: 20px 10px 5px 10px;
+  font-weight: 300;
+  margin: 20px 5px 5px 5px;
   padding: 5px;
   text-transform: uppercase;
   letter-spacing: 2;
@@ -56,18 +57,20 @@ a:link {
 
 }
 
-a:hover {
+.navbar a:hover {
   color: #BDD435;
 }
 
 .greenbutton {
   background-color: #BDD435;
-  border-radius: 5%;
-  padding: 36px 11px 36px 11px;
+  border-radius: 4%;
+  padding: 11px 36px 11px 36px;
+  font-family: Lato;
+  color: white;
 
 }
 
-.greenbutton a:hover {
+.greenbutton, a:hover {
   background-color: #C8E138;
   color: white;
 
@@ -90,7 +93,6 @@ a:hover {
 }
 
 .workshop {
-  height: 150px;
   color: white;
   font-family: helvetica neue, helvetica;
   font-size: 155px;
@@ -98,5 +100,35 @@ a:hover {
   font-weight: 300;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 30px;
+  height: 155px;
 
+}
+
+.buildingbiz {
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+em {
+  color: #E4844A;
+  font-style: normal;
+}
+
+i {
+  color: #BDD435;
+  font-style: normal;
+}
+
+.introbutton {
+  text-align: center;
+  margin: 40px 5px 10px 5px;
+  font-family: lato;
+  letter-spacing: 1px;
 }
